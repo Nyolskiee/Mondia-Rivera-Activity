@@ -1,0 +1,27 @@
+body{
+    background-color: gray;
+}
+.cont{
+    background: #d6c4c4;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+    padding: 15px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    border-radius: 30px;
+
+}
+button{
+    margin-top: 10px;
+    color: blue;
+    width: 70px;
+    margin-left: 45%;
+}
+
+label{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
