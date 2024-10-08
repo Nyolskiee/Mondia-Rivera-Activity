@@ -4,24 +4,72 @@ body{
 .cont{
     background: #d6c4c4;
     width: 450px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     border: 2px solid;
     padding: 15px;
     position: absolute;
     top: 30%;
-    left: 30%;
-    border-radius: 30px;
+    left: 20%;
+    border-radius: 20px;
+ 
 
 }
 button{
     margin-top: 10px;
-    color: blue;
+    color: white;
     width: 70px;
     margin-left: 45%;
+    background-color: rgb(106, 95, 95);
+    size: 30px;
+    position: sticky;
 }
 
 label{
     margin-bottom: 5px;
     margin-top: 5px;
+}  
+
+.int{
+    background-color: rgb(191, 181, 181);
+}
+.bg-design{
+    width: 100%;
+    height: fit-content;
+}
+
+.view{
+    border: solid black;
+     background: #d6c4c4;
+    width: 450px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+    padding: 15px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    border-radius: 20px;
+   position: absolute;
+   
+   
+}
+
+.clear{
+    height: 25px;
+width:15%;
+margin-left: 40%;
+margin-top: 55%;
+position: sticky;
+}
+
+.font-design{
+    color: aliceblue;
+    text-align: center;
+    border-collapse: collapse;
+  width: 100%;
+  border: solid black;
+  position: static;
 }
